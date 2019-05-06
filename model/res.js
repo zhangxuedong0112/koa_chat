@@ -9,7 +9,7 @@ class Res{
 }
 
 const response = (ctx, result)=>{
-    ctx.status = result.code;
+    // ctx.status = result.code;
     ctx.body = result;
 }
 
